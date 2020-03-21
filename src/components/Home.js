@@ -7,9 +7,11 @@ class Home extends Component {
         return (
             <div className='App'>
                 <DisplayMapClass />
+                <h1>Componente Home</h1>
             </div>
         );
     }
 }
 
 export default Home;
+
