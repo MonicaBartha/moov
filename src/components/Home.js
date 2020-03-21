@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import '../App.css';
+import DisplayMapClass from './DisplayMapClass'
 
 class Home extends Component {
     render() {
         return (
             <div className='App'>
-                <h1>Componente Home</h1>
+                <DisplayMapClass />
             </div>
         );
     }
