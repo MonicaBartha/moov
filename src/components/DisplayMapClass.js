@@ -55,7 +55,6 @@ export default class DisplayMapClass extends React.Component {
           const customMarkerIcon = `
           <div> 
           <img style='width: 50px; 'src='${house}'/> </br>
-          <h3>Mi Casa</h3>
           </div>`;
           const icon = new window.H.map.DomIcon(customMarkerIcon), 
           coords = { lat: position.coords.latitude, lng: position.coords.longitude },
@@ -82,7 +81,7 @@ export default class DisplayMapClass extends React.Component {
   render() {
     return (
       // Set a height on the map so it will display
-      <div ref={this.mapRef} style={{ height: "500px" }} />
+      <div ref={this.mapRef} style={{ height: "100vh" }} />
     );
   }
 }
