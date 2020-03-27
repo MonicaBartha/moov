@@ -31,7 +31,7 @@ class MyNavBar extends React.Component {
 		// evaluamos el estado que recibimos por props, si cambia se vuelve a evaluar
 		switch (this.state.activePage) {
 			case 0:
-				return <Home/>			
+				return <Home changeState={this.changeState.bind(this)}/>			
 			case 1:
 				return <Maps/>
 			case 2:
