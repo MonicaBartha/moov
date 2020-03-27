@@ -52,19 +52,20 @@ class MyNavBar extends React.Component {
     return (
       <div> 
       <header>
-        <div className="divLogo">
-          <img className="logo" alt="logoMoov" onClick={()=> this.changeState(0)} src={logo} href="#home"/>
-        </div>
-        <label for="toggle"><img alt="menuIcon" src={MenuIcon}/></label>
+        {/* <div className="divLogo">
+        <img className="logo" alt="logoMoov" onClick={()=> this.changeState(0)} src={logo} href="#home"/> 
+        </div> */}
+        <label htmlFor="toggle"><img alt="menuIcon" src={MenuIcon}/></label>
         <input type="checkbox" id="toggle" />
         
           <nav className="nav-links">
             <ul>
-              <Link onClick={()=> this.changeState(1)} href="#Maps"><li>Mapa</li></Link>
-              <Link onClick={()=> this.changeState(2)} href="#Services"><li>Servicios</li></Link>
-              <Link onClick={()=> this.changeState(3)} href="#Favorities"><li>Favoritos</li></Link>
-              <Link onClick={()=> this.changeState(4)} href="#About"><li>Acerca de</li></Link>
-              <Link onClick={()=> this.changeState(5)} href="#Accessibility"><li>Accesibilidad</li></Link>
+              <img className="logo" alt="logoMoov" onClick={()=> this.changeState(0)} src={logo} href="#"/> 
+              <div onClick={()=> this.changeState(1)} href="#Maps"><li>Mapa</li></div>
+              <div onClick={()=> this.changeState(2)} href="#Services"><li>Servicios</li></div>
+              <div onClick={()=> this.changeState(3)} href="#Favorities"><li>Favoritos</li></div>
+              <div onClick={()=> this.changeState(4)} href="#About"><li>Acerca de</li></div>
+              <div onClick={()=> this.changeState(5)} href="#Accessibility"><li>Accesibilidad</li></div>
             </ul>
           </nav>
       </header>
