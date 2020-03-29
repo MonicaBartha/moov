@@ -52,6 +52,10 @@ class MyNavBar extends React.Component {
     return (
       <div> 
       <header>
+        {/* <div className="divLogo">
+        <img className="logo" alt="logoMoov" onClick={()=> this.changeState(0)} src={logo} href="#home"/> 
+        </div> */}
+
         <label htmlFor="toggle"><img alt="menuIcon" src={MenuIcon}/></label>
         <input type="checkbox" id="toggle" />
           <nav className="nav-links">
