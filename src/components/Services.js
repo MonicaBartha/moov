@@ -19,7 +19,6 @@ class Category extends Component {
     });
   };
 
-
   render() {
     if (this.state.activePage === 0) {
         return (
