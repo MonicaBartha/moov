@@ -33,8 +33,7 @@ class Category extends Component {
               <div onClick={() => this.changeState(5, 'Playas y Balnearios')} className="itemServices">Playas y Balnearios</div>
               <div onClick={() => this.changeState(6, 'Parques y Plazas')}className="itemServices">Parques y Plazas</div> 
               <div className="itemServices">Otros</div>
-            </div>
-            {/* <SiteFooter />  */}
+          </div>
           </div>
         );
       } else {

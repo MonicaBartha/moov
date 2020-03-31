@@ -77,7 +77,8 @@ header label:hover {
     nav,
   section {
       z-index: 1000 !important;
-  }
+    }
+  
 
   header {
     height: 100px;
@@ -115,7 +116,7 @@ header label:hover {
     display: block;
     margin: 0;
   }
-  
+}
   
   article,
   aside,
@@ -129,26 +130,7 @@ header label:hover {
   section {
     z-index: 1000 !important;
   }
-}
-<<<<<<< HEAD
-  
 
-
-=======
-
-article,
-aside,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-main,
-nav,
-section {
-  z-index: 1000 !important;
-}
->>>>>>> cbe2a4827d56928dc9de939fc4aba659d9c0d65a
 
 @media only screen and (max-width: 1024px) {
   .logo {
@@ -194,6 +176,8 @@ section {
   margin-top: 4rem;
   text-align: center;
 }
+
+
 
   #toggle:checked~.nav-links {
     display: block;
