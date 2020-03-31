@@ -87,17 +87,17 @@ export default class DisplayMapClass extends React.Component {
   addMarkersToMap() {
     data.map(element => {
 
-      let icon = '';
+      // let icon = '';
 
-      if(element.type === 'Playas y Balnearios'){
-        icon = PlayasBalnearios
-      }
+      // if(element.type === 'Playas y Balnearios'){
+      //   icon = PlayasBalnearios
+      // }
       const customMarkerIcon = `
             <div> 
             <img style='width: 40px; 'src='${house}'/> 
             <p>${element.name}</p>
             </div>`;
-      const icon = new window.H.map.DomIcon(customMarkerIcon),
+        const icon = new window.H.map.DomIcon(customMarkerIcon),
         coords = { lat: element.location.lat, lng: element.location.lng },
         marker = new window.H.map.DomMarker(coords, { icon: icon });
   
