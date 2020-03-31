@@ -1,6 +1,8 @@
 import React from "react";
 import house from "../assets/img/house.svg";
 import data from '../data.json';
+import PlayasBalnearios from '../assets/img/beach_icon.png'
+
 export default class DisplayMapClass extends React.Component {
   mapRef = React.createRef();
 
@@ -58,7 +60,7 @@ export default class DisplayMapClass extends React.Component {
             lat: position.coords.latitude,
             lng: position.coords.longitude
           });
-          this.state.map.setZoom(15);
+          this.state.map.setZoom(5);
 
           const customMarkerIcon = `
           <div> 
@@ -86,15 +88,16 @@ export default class DisplayMapClass extends React.Component {
 
   addMarkersToMap() {
     data.map(element => {
-
-      // let icon = '';
-
-      // if(element.type === 'Playas y Balnearios'){
-      //   icon = PlayasBalnearios
-      // }
+      let view = '';
+      switch(element.type){
+        case 'Playas y Balnearios':
+          view = PlayasBalnearios;
+          break;
+      }
+      
       const customMarkerIcon = `
             <div> 
-            <img style='width: 40px; 'src='${house}'/> 
+            <img style='width: 40px; 'src='${view}'/> 
             <p>${element.name}</p>
             </div>`;
         const icon = new window.H.map.DomIcon(customMarkerIcon),
