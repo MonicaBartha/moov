@@ -18,7 +18,6 @@ import iconBack from '../assets/img/iconBack.svg';
 import Footer from '../components/Footer';
 
 
-
 class MyNavBar extends React.Component {
 
   constructor() {
