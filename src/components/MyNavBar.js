@@ -85,6 +85,10 @@ class MyNavBar extends React.Component {
               </div>
               <div className='containerElemt'>
               <img alt="icon" className='iconElem' src={iconFavoritos}/>  
+              <div onClick={()=> this.changeState(3)} ><li>Transportes</li></div>
+              </div>
+              <div className='containerElemt'>
+              <img alt="icon" className='iconElem' src={iconFavoritos}/>  
               <div onClick={()=> this.changeState(4)} href="#Favorities"><li>Favoritos</li></div>
               </div>
               <div className='containerElemt'>

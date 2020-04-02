@@ -43,7 +43,7 @@ class Favorites extends Component {
         return (
         <Fragment>
         <div className="type">
-          <p>Favoritos</p>
+          <p>Transporte  </p>
         </div>
         <div className="container_">
           {this.state.data.map(current => {
@@ -51,6 +51,7 @@ class Favorites extends Component {
               <div
                 onClick={() => this.handleShowModal(current)}
                 className="elementos_"
+                id="elementos_"
                 key={current.id}
               >
                 <img alt="itemImg" className="itemImg" src={`${current.img}`} />

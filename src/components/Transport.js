@@ -51,6 +51,7 @@ class Transport extends Component {
               <div
                 onClick={() => this.handleShowModal(current)}
                 className="elementos_"
+                id="elementos_"
                 key={current.id}
               >
                 <img alt="itemImg" className="itemImg" src={`${current.img}`} />
