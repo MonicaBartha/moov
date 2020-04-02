@@ -15,7 +15,6 @@ import iconFavoritos from '../assets/img/iconFavoritos.svg';
 import iconAcercaDe from '../assets/img/iconAcercaDe.svg';
 import iconHome from '../assets/img/iconHome.svg';
 import iconBack from '../assets/img/iconBack.svg';
-
 import Footer from '../components/Footer';
 
 
