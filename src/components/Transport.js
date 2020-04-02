@@ -43,7 +43,7 @@ class Transport extends Component {
         return (
         <Fragment>
         <div className="type">
-          <p>Servicios > Transporte  </p>
+          <p>Transporte</p>
         </div>
         <div className="container_">
           {this.state.data.map(current => {
@@ -51,7 +51,6 @@ class Transport extends Component {
               <div
                 onClick={() => this.handleShowModal(current)}
                 className="elementos_"
-                id="elementos_"
                 key={current.id}
               >
                 <img alt="itemImg" className="itemImg" src={`${current.img}`} />

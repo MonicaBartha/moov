@@ -15,6 +15,7 @@ import iconFavoritos from '../assets/img/iconFavoritos.svg';
 import iconAcercaDe from '../assets/img/iconAcercaDe.svg';
 import iconHome from '../assets/img/iconHome.svg';
 import iconBack from '../assets/img/iconBack.svg';
+import iconAvion from '../assets/img/iconAvion.svg';
 import Footer from '../components/Footer';
 
 
@@ -79,7 +80,7 @@ class MyNavBar extends React.Component {
               <div onClick={()=> this.changeState(2)} href="#Services"><li>Servicios</li></div>
               </div>
               <div className='containerElemt'>
-              <img alt="icon" className='iconElem' src={iconFavoritos}/>  
+              <img alt="icon" className='iconElem' src={iconAvion}/>  
               <div onClick={()=> this.changeState(3)} ><li>Transportes</li></div>
               </div>
               <div className='containerElemt'>
