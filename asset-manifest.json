@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/MonicaBartha/moov/static/css/main.ea730735.chunk.css",
+    "main.js": "/MonicaBartha/moov/static/js/main.fe2c2e2e.chunk.js",
+    "main.js.map": "/MonicaBartha/moov/static/js/main.fe2c2e2e.chunk.js.map",
+    "runtime-main.js": "/MonicaBartha/moov/static/js/runtime-main.98c0cfc4.js",
+    "runtime-main.js.map": "/MonicaBartha/moov/static/js/runtime-main.98c0cfc4.js.map",
+    "static/css/2.de424728.chunk.css": "/MonicaBartha/moov/static/css/2.de424728.chunk.css",
+    "static/js/2.4683df15.chunk.js": "/MonicaBartha/moov/static/js/2.4683df15.chunk.js",
+    "static/js/2.4683df15.chunk.js.map": "/MonicaBartha/moov/static/js/2.4683df15.chunk.js.map",
+    "index.html": "/MonicaBartha/moov/index.html",
+    "precache-manifest.0d83bc87a3c375141dd86a7888f451d4.js": "/MonicaBartha/moov/precache-manifest.0d83bc87a3c375141dd86a7888f451d4.js",
+    "service-worker.js": "/MonicaBartha/moov/service-worker.js",
+    "static/css/2.de424728.chunk.css.map": "/MonicaBartha/moov/static/css/2.de424728.chunk.css.map",
+    "static/css/main.ea730735.chunk.css.map": "/MonicaBartha/moov/static/css/main.ea730735.chunk.css.map",
+    "static/js/2.4683df15.chunk.js.LICENSE.txt": "/MonicaBartha/moov/static/js/2.4683df15.chunk.js.LICENSE.txt",
+    "static/media/home.css": "/MonicaBartha/moov/static/media/home-transporte.483ca8f2.jpg",
+    "static/media/iconAcercaDe.svg": "/MonicaBartha/moov/static/media/iconAcercaDe.d9a24d05.svg",
+    "static/media/iconAvion.svg": "/MonicaBartha/moov/static/media/iconAvion.952237ec.svg",
+    "static/media/iconBack.svg": "/MonicaBartha/moov/static/media/iconBack.d9d4427b.svg",
+    "static/media/iconFavoritos.svg": "/MonicaBartha/moov/static/media/iconFavoritos.71152490.svg",
+    "static/media/iconHome.svg": "/MonicaBartha/moov/static/media/iconHome.fa2c07da.svg",
+    "static/media/iconMapa.svg": "/MonicaBartha/moov/static/media/iconMapa.f889f960.svg",
+    "static/media/iconServicios.svg": "/MonicaBartha/moov/static/media/iconServicios.22f8154d.svg",
+    "static/media/location-mark.png": "/MonicaBartha/moov/static/media/location-mark.53cbb655.png",
+    "static/media/logoMoov.png": "/MonicaBartha/moov/static/media/logoMoov.e568f3ca.png",
+    "static/media/moov.png": "/MonicaBartha/moov/static/media/moov.d214da21.png",
+    "static/media/services.css": "/MonicaBartha/moov/static/media/servicios-turismo-aventura.d6e3d5e4.jpg",
+    "static/media/times-circle-solid.svg": "/MonicaBartha/moov/static/media/times-circle-solid.bb7daa97.svg",
+    "static/media/welcome.css": "/MonicaBartha/moov/static/media/welcome-beach.61011dcb.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.98c0cfc4.js",
+    "static/css/2.de424728.chunk.css",
+    "static/js/2.4683df15.chunk.js",
+    "static/css/main.ea730735.chunk.css",
+    "static/js/main.fe2c2e2e.chunk.js"
+  ]
+}
